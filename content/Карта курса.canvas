@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"9a1df337e74ae2cf","x":987,"y":542,"width":250,"height":60,"type":"text","text":""},
+		{"id":"dash","type":"file","file":"index.md","x":-1520,"y":-40,"width":460,"height":340,"color":"4"},
+		{"id":"l1","type":"file","file":"Лекция 01 - Введение в СИИ.md","x":-420,"y":-520,"width":420,"height":260},
+		{"id":"l2","type":"file","file":"Лекция 02 - Классическое ML и регрессия.md","x":60,"y":-520,"width":440,"height":280},
+		{"id":"l3","type":"file","file":"Лекция 03 - Классификация и базовые алгоритмы.md","x":560,"y":-520,"width":440,"height":280},
+		{"id":"l4","type":"file","file":"Лекция 04 - Метрики качества и жизненный цикл ML-модели.md","x":1080,"y":-520,"width":460,"height":300},
+		{"id":"l5","type":"file","file":"Лекция 05 - Обучение без учителя.md","x":-180,"y":-100,"width":440,"height":280},
+		{"id":"l6","type":"file","file":"Лекция 06 - Ансамбли моделей.md","x":340,"y":-100,"width":420,"height":280},
+		{"id":"l7","type":"file","file":"Лекция 07 - Глубокое обучение и нейросети.md","x":860,"y":-100,"width":460,"height":300},
+		{"id":"l8","type":"file","file":"Лекция 08 - Компьютерное зрение.md","x":1380,"y":-100,"width":420,"height":280},
+		{"id":"l9","type":"file","file":"Лекция 09 - Свёрточные нейросети.md","x":60,"y":360,"width":440,"height":300},
+		{"id":"l10","type":"file","file":"Лекция 10 - Рекуррентные нейросети.md","x":580,"y":360,"width":460,"height":300},
+		{"id":"l11","type":"file","file":"Лекция 11 - Трансформеры.md","x":1120,"y":360,"width":420,"height":280},
+		{"id":"l12","type":"file","file":"Лекция 12 - Генеративный ИИ.md","x":1600,"y":360,"width":420,"height":280},
+		{"id":"index","type":"file","file":"00 - Индекс вопросов.md","x":-920,"y":-40,"width":460,"height":340,"color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"dash","fromSide":"right","toNode":"index","toSide":"left","label":"вопросы"},
+		{"id":"e2","fromNode":"index","fromSide":"right","toNode":"l1","toSide":"left","label":"старт теории"},
+		{"id":"e3","fromNode":"l1","fromSide":"right","toNode":"l2","toSide":"left"},
+		{"id":"e4","fromNode":"l2","fromSide":"right","toNode":"l3","toSide":"left"},
+		{"id":"e5","fromNode":"l3","fromSide":"right","toNode":"l4","toSide":"left"},
+		{"id":"e6","fromNode":"l2","fromSide":"bottom","toNode":"l5","toSide":"top"},
+		{"id":"e7","fromNode":"l3","fromSide":"bottom","toNode":"l6","toSide":"top"},
+		{"id":"e8","fromNode":"l4","fromSide":"bottom","toNode":"l7","toSide":"top"},
+		{"id":"e9","fromNode":"l7","fromSide":"right","toNode":"l8","toSide":"left"},
+		{"id":"e10","fromNode":"l8","fromSide":"bottom","toNode":"l9","toSide":"top"},
+		{"id":"e11","fromNode":"l7","fromSide":"bottom","toNode":"l10","toSide":"top"},
+		{"id":"e12","fromNode":"l10","fromSide":"right","toNode":"l11","toSide":"left"},
+		{"id":"e13","fromNode":"l11","fromSide":"right","toNode":"l12","toSide":"left"}
+	]
+}
